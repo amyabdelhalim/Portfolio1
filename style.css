@@ -1,4 +1,8 @@
-h1 {
-    color: cadetblue;
-    
+* {
+    margin: 0;
+}
+
+.Nav { 
+    height : 10vh;
+    background-color: aqua;
 }
