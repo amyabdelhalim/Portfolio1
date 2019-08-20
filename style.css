@@ -4,9 +4,39 @@
 
 .Nav { 
     height : 10vh;
+    width: 100%;
     background-color: aqua;
+    display:table;
+    clear: both;
 }
 
+.namecontainer {
+    display: table;
+    height: 10vh;
+    float: left;
+}
+
+.navItems{
+    display: table;
+    height: 10vh;
+    float: right;
+}
+
+.navtext{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Name {
+    background-color: green;
+    color: white;
+    width: 300px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
 .Content {
     min-height : 80vh;
     background-color: aliceblue;
