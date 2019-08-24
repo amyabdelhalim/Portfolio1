@@ -43,6 +43,13 @@
     background-color: aliceblue;
     position: relative;
     background-image: url("./burney.jpg");
+    background-size: cover;
+}
+
+.newContent {
+    min-height : 80vh;
+    background-color: aliceblue;
+    position: relative;
 }
 
 /* .center-this { */
@@ -93,7 +100,7 @@
 }
 .info {
     font-size: 12px;
-    text-align: 
+    text-align: center;
     
 }
 .Footer {
@@ -104,9 +111,14 @@
 .contact-form{
     border: black 10px;
     width: 500px;
-    margin: 101px auto 136px auto;
+    margin: 101px auto 90px auto;
     border:7px solid pink;
+    padding: 20px;
 }
+
+/* .contact-text-box {
+    background-color: red;
+} */
 
 
 input[type=text] {
@@ -114,4 +126,42 @@ input[type=text] {
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
-  }
+}
+
+.center-me{
+    text-align: center;
+    transform: translate(0%, 200%)
+}
+
+.submit{
+    padding: 5px
+}
+
+.border1 { 
+    width: 100px;
+    margin: 10px auto 10px auto;
+    border: 7px solid pink;
+    padding: 20px;
+}
+
+.portfolio-content {
+    height: 80vh;
+    background-color: lightblue;
+}
+
+.contact-form1 {
+    border: black 10px;
+    width: 800px;
+    margin: 101px auto 80px auto;
+    border:7px solid pink;
+    padding: 20px;
+    height: 320px
+}
+.images {
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 20px;
+    
+    
+}
